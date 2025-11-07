@@ -1,0 +1,28 @@
+{
+  "name": "youtube138-mcp-server",
+  "version": "1.0.0",
+  "description": "YouTube138 API 的 MCP 服务器，提供视频搜索、自动完成、首页推荐和热门内容等功能",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "youtube138-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "mcp",
+    "youtube",
+    "api",
+    "rapidapi",
+    "model-context-protocol"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "axios": "^1.7.9"
+  }
+}
+
